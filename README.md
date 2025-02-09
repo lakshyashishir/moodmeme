@@ -1,6 +1,6 @@
 # MoodMeme 🎭
 
-An AI-powered Telegram bot that generates hilarious crypto memes using real-time market data. Drop a token name, get back a perfectly timed meme with snarky AI captions!
+An AI-powered Telegram bot that generates hilarious crypto memes using real-time market data. Drop a token name, get back a perfectly timed meme with snarky AI captions! [NOTE: This project is incomplete.]
 
 ## Features
 
