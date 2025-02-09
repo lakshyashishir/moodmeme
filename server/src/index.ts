@@ -14,6 +14,7 @@ import cookieParser from "cookie-parser";
 import githubRouter from "./routes/github.js";
 import { AnyType } from "./utils.js";
 import { isHttpError } from "http-errors";
+import memeRouter from './routes/meme';
 
 // Convert ESM module URL to filesystem path
 const __filename = fileURLToPath(import.meta.url);
@@ -78,6 +79,8 @@ app.use((_err: AnyType, _req: Request, _res: Response, _next: NextFunction) => {
     });
   }
 });
+
+app.use('/meme', memeRouter);
 
 // Start server and initialize services
 app.listen(port, async () => {
